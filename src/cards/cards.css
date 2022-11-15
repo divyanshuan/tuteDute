@@ -1,0 +1,62 @@
+.main_conatiner {
+  color: #fff;
+  height: 230px;
+  width: 350px;
+  border-radius: 20px;
+  padding: 0.8rem;
+  border: 1px solid red;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+}
+.tiles_title {
+  border: 1px solid #fff;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 3px;
+  width: max-content;
+  height: max-content;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.heading__card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.heading__card {
+  margin: 1rem 0;
+}
+.coursesenroll {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0.5rem;
+}
+.tiless {
+  height: 45%;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+.amount {
+  margin-left: 0.5rem;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.card_area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+
+}
+@media (max-width: 500px) {
+}

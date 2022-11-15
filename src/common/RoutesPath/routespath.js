@@ -6,7 +6,7 @@ const Routespath = (props) => {
     <div className="main_path">
       <div className="path">
         {props.paths.map((ele, k) => {
-          return <p key={k}> {ele} &#62; </p>;
+          return <p key={k}> {ele}</p>;
         })}
       </div>
     </div>

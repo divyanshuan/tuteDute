@@ -2,6 +2,7 @@ import React from "react";
 import "./referandearn.css";
 import "../../commancss.css";
 import Refercontent from "./refercontent";
+import { Link } from "react-router-dom";
 
 const ReferandEarn = () => {
   return (
@@ -36,7 +37,7 @@ const ReferandEarn = () => {
         <Refercontent />
       </div>
       <div className="terms">
-        <p>Friends Who Enrolled</p>
+        <Link className="linked" to="/friendrefered">Friends Who Enrolled</Link>
       </div>
     </>
   );

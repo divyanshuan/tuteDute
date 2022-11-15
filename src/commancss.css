@@ -11,8 +11,18 @@
   height: 40px;
   width: 180px;
 }
-.flex{
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.felx__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fler {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

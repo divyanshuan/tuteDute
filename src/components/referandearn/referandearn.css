@@ -69,7 +69,8 @@
 .terms {
   margin-top: 2rem;
 }
-.terms p {
+.terms .linked {
+  text-decoration: none;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
