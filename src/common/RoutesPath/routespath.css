@@ -1,0 +1,13 @@
+.main_path {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+}
+.path {
+  display: flex;
+  flex-direction: row;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}

@@ -1,0 +1,45 @@
+.navbar {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navbar ul {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  align-items: center;
+  color: #800080;
+}
+.navbar li {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+}
+.navbar ul :nth-child(1) {
+  color: rgba(128, 0, 128, 0.25);
+}
+.navbar ul :nth-child(2) {
+  color: rgba(128, 0, 128, 0.25);
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    margin: 1.5rem 0;
+  }
+  .navlinks .mob {
+    display: none;
+  }
+  .navlinks .profile {
+    height: 40px;
+    padding: 0.2rem;
+    color: #fff;
+    background-color: #800080;
+    border-radius: 10px;
+  }
+}
